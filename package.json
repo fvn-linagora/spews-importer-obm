@@ -8,6 +8,7 @@
     "commander": "^2.9.0",
     "rx-amqplib": "^0.1.2",
     "superagent": "^2.1.0",
+    "typescript": "^2.1.4",
     "url-join": "^1.1.0",
     "winston": "^2.2.0"
   },
@@ -15,13 +16,13 @@
     "chai": "^3.5.0",
     "grunt": "^1.0.1",
     "grunt-mocha-cli": "^2.1.0",
-    "grunt-ts": "^5.5.1",
-    "grunt-tslint": "^3.1.1",
+    "grunt-ts": "~6.0.0-beta",
+    "grunt-tslint": "~4.0.0",
     "mocha": "^2.5.3",
     "sinon": "^1.17.5",
     "superagent-mocker": "^0.5.2",
-    "ts-node": "^1.2.1",
-    "tslint": "^3.14.0"
+    "ts-node": "^2.0.0",
+    "tslint": "^4.2.0"
   },
   "scripts": {
     "test": "grunt test"
